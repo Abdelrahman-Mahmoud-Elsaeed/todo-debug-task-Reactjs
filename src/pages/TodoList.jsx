@@ -11,7 +11,7 @@ const TodoList = () => {
     <div className="container">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2 className="fw-bold text-dark">My Todo List</h2>
-        <Link to="add" className="btn btn-primary px-4 rounded-pill">
+        <Link to="/add" className="btn btn-primary px-4 rounded-pill">
           <i className="fa-solid fa-plus me-2"></i>New Task
         </Link>
       </div>
